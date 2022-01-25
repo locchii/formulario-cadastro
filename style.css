@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* Importando a fonte */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,700&display=swap');
+
+/* Elemento de tag <body> */
+body{
+    background-color: #F0F8FF;
+    font-size: 1.2em;
+    color: #012E40;
+    text-align: center;
+    font-family: 'Zilla Slab', serif;
+}
+
+/* Elementos com o ID "titulo" */
+#titulo{
+    font-family: 'Zilla Slab', serif;
+    color: #012E40;
+    margin-bottom: 0%;
+    
+}
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo{
+    font-family: 'Zilla Slab', serif;
+    color: #22647e;
+    margin-top: 0%;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset{
+    border: 0;
+    display: block;
+}
+
+/* Elementos de tags <body>, <input>, <textarea> e <button> */
+input, textarea, button{
+    border-radius: 5px;
+    margin-bottom: 1em;
+    box-shadow: 1px 1px 3px #012E40;
+}
+
+/* Elementos com o ID "check" */
+#check{
+    display: inline-block;
+}
+
+/* Elementos de classe "campo" */
+.campo{
+    margin-bottom: 1em;
+}
+
+/*Elementos de classe "redes" */
+.redes{
+    display: inline-block;
+}
+
+/* Elemento de classe "botao" */
+.botao{
+    font-size: 1em;
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background-color: #012E40;
+    color: white;
+}
+
+/* Elemento de classe "campo" das tags <textarea> <input> com estado da pseudoclasse "focus"*/
+.campo textarea:focus, .campo input:focus {
+    background: #f0f8ff49;
+}
+
+/* Elemento de classe "grupo" tag <input> com estado da pseudoclasse "focus"*/
+.grupo input:focus {
+    background: #f0f8ff49;
+}
