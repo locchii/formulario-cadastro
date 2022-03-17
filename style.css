@@ -60,6 +60,18 @@ input, textarea, button{
     font-size: 1em;
 }
 
+/*Deixando nome e sobrenome na mesma linha */
+.nomes{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Deixando Idade e Email na mesma linha */
+.ie{
+    display: inline-block;
+    margin-left: 20px;
+}
+
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
 .botao:hover {
     background-color: #012E40;
